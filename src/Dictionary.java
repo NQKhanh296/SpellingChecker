@@ -39,7 +39,7 @@ public class Dictionary {
             }
         }
         if (misspelledWords.size()==1){
-            return misspelledWords.get(0)+"is misspelled";
+            return misspelledWords.get(0)+" is misspelled";
         } else if (misspelledWords.size()>1) {
             return String.join(", ", misspelledWords)+" are misspelled";
         }
